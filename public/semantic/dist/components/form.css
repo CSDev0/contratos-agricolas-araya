@@ -541,9 +541,9 @@
 .ui.form .field.error input[type="url"]:focus {
   background: #FFF6F6;
   border-color: #E0B4B4;
-  color: #ff291c;
-  -webkit-box-shadow: 0px 0em 0em 0em #ff291c inset;
-          box-shadow: 0px 0em 0em 0em #ff291c inset;
+  color: #cd2432;
+  -webkit-box-shadow: 0px 0em 0em 0em #cd2432 inset;
+          box-shadow: 0px 0em 0em 0em #cd2432 inset;
 }
 
 /* Preserve Native Select Stylings */
@@ -1353,7 +1353,7 @@
   height: 3em;
   -webkit-animation: loader 0.6s infinite linear;
           animation: loader 0.6s infinite linear;
-  border: 0.2em solid #CCCCCC;
+  border: 0.2em solid #A0A0A0;
   border-radius: 500rem;
   -webkit-box-shadow: 0 0 0 1px transparent;
           box-shadow: 0 0 0 1px transparent;
@@ -1379,7 +1379,7 @@
 .ui.form label.required:after {
   margin: -0.2em 0 0 0.2em;
   content: '*';
-  color: #FF4136;
+  color: #D33744;
 }
 .ui.form .required.fields:not(.grouped) > .field > label:after,
 .ui.form .required.fields.grouped > label:after,

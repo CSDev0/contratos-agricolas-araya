@@ -99,10 +99,10 @@
   background: #cf9b0d;
 }
 .ui.toast-container .toast-box > .attached.progress.success .bar.bar.bar {
-  background: #208e2c;
+  background: #087139;
 }
 .ui.toast-container .toast-box > .attached.progress.error .bar.bar.bar {
-  background: #e80d00;
+  background: #9b222c;
 }
 .ui.toast-container .toast-box > .attached.progress.neutral .bar.bar.bar {
   background: #d9d9d9;
@@ -381,11 +381,11 @@
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.toast.success {
-  background-color: #2ECC40;
+  background-color: #0DB85D;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.toast.error {
-  background-color: #FF4136;
+  background-color: #D33744;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.toast.neutral {
@@ -480,7 +480,7 @@
 -------------- */
 
 .ui.primary.toast {
-  background-color: #0074D9;
+  background-color: #0061A0;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.primary.toast,
@@ -489,7 +489,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.secondary.toast {
-  background-color: #191919;
+  background-color: #666666;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.secondary.toast,
@@ -498,7 +498,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.red.toast {
-  background-color: #FF4136;
+  background-color: #D33744;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.red.toast,
@@ -507,7 +507,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.orange.toast {
-  background-color: #FF851B;
+  background-color: #FFA500;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.orange.toast,
@@ -516,7 +516,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.yellow.toast {
-  background-color: #FFCB08;
+  background-color: #FFE14D;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.yellow.toast,
@@ -525,7 +525,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.olive.toast {
-  background-color: #B5CC18;
+  background-color: #B5CC19;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.olive.toast,
@@ -534,7 +534,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.green.toast {
-  background-color: #2ECC40;
+  background-color: #0DB85D;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.green.toast,
@@ -543,7 +543,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.teal.toast {
-  background-color: #39CCCC;
+  background-color: #00cec5;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.teal.toast,
@@ -552,7 +552,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.blue.toast {
-  background-color: #0074D9;
+  background-color: #3475CF;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.blue.toast,
@@ -561,7 +561,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.violet.toast {
-  background-color: #6435C9;
+  background-color: #CB87CB;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.violet.toast,
@@ -570,7 +570,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.purple.toast {
-  background-color: #A24096;
+  background-color: #C24FE9;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.purple.toast,
@@ -579,7 +579,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.pink.toast {
-  background-color: #D9499A;
+  background-color: #FF92CC;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.pink.toast,
@@ -588,7 +588,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.brown.toast {
-  background-color: #A5673F;
+  background-color: #b5856e;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.brown.toast,
@@ -597,7 +597,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.grey.toast {
-  background-color: #CCCCCC;
+  background-color: #A0A0A0;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.grey.toast,
@@ -606,7 +606,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.black.toast {
-  background-color: #191919;
+  background-color: #262626;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.black.toast,
@@ -614,9 +614,18 @@
   background-color: #545454;
   color: rgba(0, 0, 0, 0.8);
 }
+.ui.white.toast {
+  background-color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.9);
+}
+.ui.inverted.white.toast,
+.ui.toast-container .toast-box > .inverted.white.attached.progress .bar {
+  background-color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
+}
 .ui.inverted.toast {
   color: rgba(255, 255, 255, 0.9);
-  background-color: #191919;
+  background-color: #262626;
 }
 @media only screen and (max-width: 420px) {
   .ui.toast-container .toast-box.toast-box,

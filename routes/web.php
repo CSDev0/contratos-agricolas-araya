@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'WebController@index');
+
+Route::get('gestion/contratos', 'ContractController@manage');
+Route::post('contratos/crear', 'ContractController@create');

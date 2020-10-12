@@ -133,7 +133,7 @@
 }
 .ui.search > .results .result .price {
   float: right;
-  color: #2ECC40;
+  color: #0DB85D;
 }
 
 /*--------------
@@ -207,7 +207,7 @@
   height: 1.28571429em;
   -webkit-animation: loader 0.6s infinite linear;
           animation: loader 0.6s infinite linear;
-  border: 0.2em solid #CCCCCC;
+  border: 0.2em solid #A0A0A0;
   border-radius: 500rem;
   -webkit-box-shadow: 0 0 0 1px transparent;
           box-shadow: 0 0 0 1px transparent;
@@ -298,7 +298,7 @@
 }
 .ui.search.selection > .icon.input > .remove.icon:hover {
   opacity: 1;
-  color: #FF4136;
+  color: #D33744;
 }
 
 /*--------------

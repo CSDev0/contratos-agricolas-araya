@@ -527,7 +527,7 @@
   height: 3em;
   -webkit-animation: loader 0.6s infinite linear;
           animation: loader 0.6s infinite linear;
-  border: 0.2em solid #CCCCCC;
+  border: 0.2em solid #A0A0A0;
   border-radius: 500rem;
   -webkit-box-shadow: 0 0 0 1px transparent;
           box-shadow: 0 0 0 1px transparent;
@@ -570,94 +570,101 @@
 --------------------*/
 
 .ui.red.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #FF4136;
+  border-top: 2px solid #D33744;
 }
 .ui.inverted.red.segment.segment.segment.segment.segment {
-  background-color: #FF4136;
+  background-color: #D33744;
   color: #FFFFFF;
 }
 .ui.orange.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #FF851B;
+  border-top: 2px solid #FFA500;
 }
 .ui.inverted.orange.segment.segment.segment.segment.segment {
-  background-color: #FF851B;
+  background-color: #FFA500;
   color: #FFFFFF;
 }
 .ui.yellow.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #FFCB08;
+  border-top: 2px solid #FFE14D;
 }
 .ui.inverted.yellow.segment.segment.segment.segment.segment {
-  background-color: #FFCB08;
+  background-color: #FFE14D;
   color: #FFFFFF;
 }
 .ui.olive.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #B5CC18;
+  border-top: 2px solid #B5CC19;
 }
 .ui.inverted.olive.segment.segment.segment.segment.segment {
-  background-color: #B5CC18;
+  background-color: #B5CC19;
   color: #FFFFFF;
 }
 .ui.green.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #2ECC40;
+  border-top: 2px solid #0DB85D;
 }
 .ui.inverted.green.segment.segment.segment.segment.segment {
-  background-color: #2ECC40;
+  background-color: #0DB85D;
   color: #FFFFFF;
 }
 .ui.teal.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #39CCCC;
+  border-top: 2px solid #00cec5;
 }
 .ui.inverted.teal.segment.segment.segment.segment.segment {
-  background-color: #39CCCC;
+  background-color: #00cec5;
   color: #FFFFFF;
 }
 .ui.blue.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #0074D9;
+  border-top: 2px solid #3475CF;
 }
 .ui.inverted.blue.segment.segment.segment.segment.segment {
-  background-color: #0074D9;
+  background-color: #3475CF;
   color: #FFFFFF;
 }
 .ui.violet.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #6435C9;
+  border-top: 2px solid #CB87CB;
 }
 .ui.inverted.violet.segment.segment.segment.segment.segment {
-  background-color: #6435C9;
+  background-color: #CB87CB;
   color: #FFFFFF;
 }
 .ui.purple.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #A24096;
+  border-top: 2px solid #C24FE9;
 }
 .ui.inverted.purple.segment.segment.segment.segment.segment {
-  background-color: #A24096;
+  background-color: #C24FE9;
   color: #FFFFFF;
 }
 .ui.pink.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #D9499A;
+  border-top: 2px solid #FF92CC;
 }
 .ui.inverted.pink.segment.segment.segment.segment.segment {
-  background-color: #D9499A;
+  background-color: #FF92CC;
   color: #FFFFFF;
 }
 .ui.brown.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #A5673F;
+  border-top: 2px solid #b5856e;
 }
 .ui.inverted.brown.segment.segment.segment.segment.segment {
-  background-color: #A5673F;
+  background-color: #b5856e;
   color: #FFFFFF;
 }
 .ui.grey.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #CCCCCC;
+  border-top: 2px solid #A0A0A0;
 }
 .ui.inverted.grey.segment.segment.segment.segment.segment {
-  background-color: #CCCCCC;
+  background-color: #A0A0A0;
   color: #FFFFFF;
 }
 .ui.black.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #191919;
+  border-top: 2px solid #262626;
 }
 .ui.inverted.black.segment.segment.segment.segment.segment {
-  background-color: #191919;
+  background-color: #262626;
+  color: #FFFFFF;
+}
+.ui.white.segment.segment.segment.segment.segment:not(.inverted) {
+  border-top: 2px solid #FFFFFF;
+}
+.ui.inverted.white.segment.segment.segment.segment.segment {
+  background-color: #FFFFFF;
   color: #FFFFFF;
 }
 
@@ -700,7 +707,7 @@
 }
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: #191919;
+  background: #262626;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -736,9 +743,9 @@
   color: rgba(0, 0, 0, 0.6);
 }
 .ui.secondary.inverted.segment {
-  background: #4c4c4c -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
-  background: #4c4c4c -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.2) 100%);
-  background: #4c4c4c linear-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.2) 100%);
+  background: #595959 -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
+  background: #595959 -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.2) 100%);
+  background: #595959 linear-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.2) 100%);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -748,9 +755,9 @@
   color: rgba(0, 0, 0, 0.6);
 }
 .ui.tertiary.inverted.segment {
-  background: #727272 -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0.35)));
-  background: #727272 -webkit-linear-gradient(rgba(255, 255, 255, 0.35) 0, rgba(255, 255, 255, 0.35) 100%);
-  background: #727272 linear-gradient(rgba(255, 255, 255, 0.35) 0, rgba(255, 255, 255, 0.35) 100%);
+  background: #7f7f7f -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0.35)));
+  background: #7f7f7f -webkit-linear-gradient(rgba(255, 255, 255, 0.35) 0, rgba(255, 255, 255, 0.35) 100%);
+  background: #7f7f7f linear-gradient(rgba(255, 255, 255, 0.35) 0, rgba(255, 255, 255, 0.35) 100%);
   color: rgba(255, 255, 255, 0.8);
 }
 

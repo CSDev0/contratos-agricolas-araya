@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 06-10-2020, 18:15:51
+    Author     : saez_
+*/
+
+@import "style.less";
+.icon-bar {
+    width: 40px;
+    height: 4px;
+    background-color: @blue;
+    display: block;
+    transition: all 0.1s;
+    margin-top: 7px;
+}
+.navbar-toggler {
+    position: fixed;
+    top: 20px;
+    left: 5%;
+    padding-bottom: 15px;
+    z-index: 901;
+    border: none;
+    .border-radius(15px 0px 15px 0px);
+    border: 1px solid @blue;
+    background-color: transparent;
+}
+.navbar-toggler .top-bar {
+transform: translate(0px, 11px) rotate(45deg);
+}
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    height: 4px;
+}
+.navbar-toggler .bottom-bar {
+transform: translate(0px, -10px) rotate(-45deg);
+height: 4px;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}

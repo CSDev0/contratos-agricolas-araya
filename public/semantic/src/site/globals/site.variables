@@ -1,3 +1,19 @@
 /*******************************
      User Global Variables
 *******************************/
+
+@primaryColor   : #0061A0;
+@secondaryColor : #666666;
+@red            : #D33744;
+@orange         : #FFA500;
+@yellow         : #FFE14D;
+@olive          : #B5CC19;
+@green          : #0DB85D;
+@teal           : #00cec5;
+@blue           : #3475CF;
+@violet         : #CB87CB;
+@purple         : #C24FE9;
+@pink           : #FF92CC;
+@brown          : #b5856e;
+@grey           : #A0A0A0;
+@black          : #262626;
